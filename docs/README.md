@@ -33,19 +33,19 @@ highlights:
     image: ""
     bgImage: ""
     features:
-      - title: 安装
-        icon: inbox
-        details: 支持安装来源(PyPI/Github/sdist/wheel/requirements.txt)
-      - title: 包列表
+      - title: 列表显示
         icon: circle-up
-        details: 显示已安装的包列表
-      - title: 更新
+        details: 表格展现包的信息
+      - title: 安装 [原生支持]
+        icon: inbox
+        details: 支持多来源安装
+      - title: 更新 [原生支持]
         icon: circle-up
         details: 寻找/指定包更新
-      - title: 查询
+      - title: 本地查询 [原生支持]
         icon: magnifying-glass
-        details: 获取包的相关信息
-      - title: 卸载
+        details: 获取本地包的相关信息
+      - title: 卸载 [原生支持]
         icon: trash
         details: 卸载指定包
 
@@ -53,10 +53,23 @@ highlights:
     image: ""
     bgImage: ""
     features:
-      - title: 下载
+      - title: 下载 [原生支持]
         icon: download
-        details: 从 PyPI/Github/sdist/wheel/requirements.txt 下载包
-      - title: 检查
+        details: 支持多来源下载
+      - title: 检视 [原生支持]
         icon: check-to-slot
-        details: 检查特定目录的包
+        details: 检视全局或特定目录的包
+      - title: 根据使用场景快速安装
+        icon: object-group
+        details: 可一键安装特定场景下推荐使用的包
+      - title: 依赖包检查 [原生支持]
+        icon: bug
+        details: 检查环境下依赖包缺失或版本错误问题
+      - title: 在线查询
+        icon: globe
+        details: 在线获取指定包的相关信息
+      - title: 缓存设置 [原生支持]
+        icon: sliders
+        details: 管理 pip 的缓存
+
 ---
