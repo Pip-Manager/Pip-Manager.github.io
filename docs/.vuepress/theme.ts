@@ -8,7 +8,7 @@ export default hopeTheme({
     name: "AuroraZiling",
   },
   iconAssets: "fontawesome",
-  logo: "",
+  logo: "assets/icon.png",
   repo: "Pip-Manager/docs",
   docsDir: "docs",
   navbar,

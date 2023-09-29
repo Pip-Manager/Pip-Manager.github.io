@@ -2,9 +2,10 @@
 home: true
 icon: home
 title: 主页
-bgImageStyle:
-  background-attachment: fixed
+bgImageStyle: 
+background-attachment: fixed
 heroText: Pip Manager
+heroImage: assets/icon.png
 tagline: 基于 Pip 的 Python 包管理器
 actions:
   - text: 开始
@@ -16,8 +17,7 @@ actions:
 
 highlights:
   - header: GUI
-    bgImage: ""
-    image: ""
+    image: assets/home/gui-image.png
     highlights:
       - title: WPF
         icon: object-ungroup
