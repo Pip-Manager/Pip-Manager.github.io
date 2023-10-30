@@ -6,7 +6,7 @@ bgImageStyle:
 background-attachment: fixed
 heroText: Pip Manager
 heroImage: assets/icon.png
-tagline: 基于 Pip 的 Python 包管理器
+tagline: 基于 Pip 的可视化 Python 包管理器
 actions:
   - text: 开始
     link: ./get-started/
@@ -22,32 +22,48 @@ highlights:
       - title: WPF
         icon: object-ungroup
         details: 基于 Windows Presentation Foundation 技术的桌面图形化应用
-      - title: Mahapps.Metro
+      - title: Fluent Design
         icon: display
-        details: 采用 Mahapps.Metro 现代风格的控件设计
+        details: 采用 Fluent 风格的控件设计
       - title: 操作可视化
         icon: window-restore
         details: 直观地进行包管理操作
+
+  - header: Action
+    image: assets/home/gui-image.png
+    highlights:
+      - title: 后台任务
+        icon: object-ungroup
+        details: 大部分操作由即时可视的后台任务完成
+      - title: 错误分析
+        icon: display
+        details: 分析常见的报错，得知问题原因和解决方案
 
   - header: 功能
     image: ""
     bgImage: ""
     features:
-      - title: 列表显示
-        icon: circle-up
-        details: 表格展现包的信息
       - title: 安装 [原生支持]
         icon: inbox
         details: 支持多来源安装
       - title: 更新 [原生支持]
         icon: circle-up
         details: 寻找/指定包更新
-      - title: 本地查询 [原生支持]
-        icon: magnifying-glass
-        details: 获取本地包的相关信息
       - title: 卸载 [原生支持]
         icon: trash
         details: 卸载指定包
+      - title: 一览
+        icon: list
+        details: 列表展现包的简要信息
+      - title: 查询
+        icon: globe
+        details: 本地[原生支持]/在线获取指定包相关信息
+      - title: 应用场景推荐
+        icon: object-group
+        details: 可一键安装特定场景下推荐使用的包
+      - title: 多环境管理
+        icon: layer-group
+        details: 一键环境切换，支持更新操作和可用性检测
 
   - header: 待更新功能
     image: ""
@@ -56,20 +72,14 @@ highlights:
       - title: 下载 [原生支持]
         icon: download
         details: 支持多来源下载
-      - title: 检视 [原生支持]
-        icon: check-to-slot
-        details: 检视全局或特定目录的包
-      - title: 根据使用场景快速安装
-        icon: object-group
-        details: 可一键安装特定场景下推荐使用的包
       - title: 依赖包检查 [原生支持]
         icon: bug
         details: 检查环境下依赖包缺失或版本错误问题
-      - title: 在线查询
-        icon: globe
-        details: 在线获取指定包的相关信息
       - title: 缓存设置 [原生支持]
         icon: sliders
-        details: 管理 pip 的缓存
+        details: 管理 pip 缓存
+      - title: 内置代码编辑器
+        icon: code
+        details: 匹配选定 Python 环境的脚本编写环境
 
 ---
