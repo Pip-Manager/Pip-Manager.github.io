@@ -1,6 +1,8 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar";
-import sidebar from "./sidebar";
+import zhNavbar from "./navbar/zhNavbar";
+import zhSidebar from "./sidebar/zhSidebar";
+import enNavbar from "./navbar/enNavbar";
+import enSidebar from "./sidebar/enSidebar";
 
 export default hopeTheme({
   hostname: "",
@@ -11,9 +13,27 @@ export default hopeTheme({
   logo: "assets/icon.png",
   repo: "Pip-Manager/docs",
   docsDir: "docs",
-  navbar,
-  sidebar,
-  displayFooter: true,
+  locales: {
+    "/": {
+      navbar: enNavbar,
+      sidebar: enSidebar,
+      footer: "Pip Manager",
+      displayFooter: true,
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
+      },
+    },
+
+    "/zh/": {
+      navbar: zhNavbar,
+      sidebar: zhSidebar,
+      footer: "Pip Manager",
+      displayFooter: true,
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
+      },
+    },
+  },
   plugins: {
     mdEnhance: {
       align: true,
