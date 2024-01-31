@@ -9,7 +9,7 @@ export default hopeTheme({
   },
   iconAssets: "fontawesome",
   logo: "assets/icon.png",
-  repo: "Pip-Manager/docs",
+  repo: "Pip-Manager",
   docsDir: "docs",
   navbar,
   sidebar,
