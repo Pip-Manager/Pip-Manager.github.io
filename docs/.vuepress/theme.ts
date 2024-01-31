@@ -11,7 +11,7 @@ export default hopeTheme({
   },
   iconAssets: "fontawesome",
   logo: "assets/icon.png",
-  repo: "Pip-Manager",
+  repo: "Pip-Manager/docs",
   docsDir: "docs",
   locales: {
     "/": {

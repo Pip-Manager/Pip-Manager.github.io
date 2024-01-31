@@ -21,11 +21,11 @@ highlights:
     highlights:
       - title: WPF
         icon: object-ungroup
-        details: Desktop application based on Windows Presentation Foundation
-      - title: Fluent Design
+        details: 基于 Windows Presentation Foundation 技术的桌面图形化应用
+      - title: Mahapps.Metro
         icon: display
-        details: Fluent controls design
-      - title: Operation Visualization
+        details: 采用 Mahapps.Metro 现代风格的控件设计
+      - title: 操作可视化
         icon: window-restore
         details: Intuitive package management operations
 
@@ -43,37 +43,42 @@ highlights:
     image: ""
     bgImage: ""
     features:
-      - title: Overview
-        icon: list
-        details: List the brief information of the package
-      - title: Query
-        icon: globe
-        details: Get specified package information locally/online
-      - title: Scenario Recommendation
-        icon: object-group
-        details: One-click installation of packages recommended for specific scenarios
-      - title: Multi-Environment Management
-        icon: layer-group
-        details: Environment switching, support update operation and availability check
-      - title: Built-in Code Editor
-        icon: code
-        details: Lightweight Python script writing
+      - title: 列表显示
+        icon: circle-up
+        details: 表格展现包的信息
+      - title: 安装 [原生支持]
+        icon: inbox
+        details: 支持多来源安装
+      - title: 更新 [原生支持]
+        icon: circle-up
+        details: 寻找/指定包更新
+      - title: 本地查询 [原生支持]
+        icon: magnifying-glass
+        details: 获取本地包的相关信息
+      - title: 卸载 [原生支持]
+        icon: trash
+        details: 卸载指定包
 
-  - header: Native Support
+  - header: 待更新功能
     image: ""
     bgImage: ""
     features:
-      - title: Installation
-        icon: inbox
-      - title: Update
-        icon: circle-up
-      - title: Uninstallation
-        icon: trash
-      - title: Download
+      - title: 下载 [原生支持]
         icon: download
-      - title: Integrity Check
+        details: 支持多来源下载
+      - title: 检视 [原生支持]
+        icon: check-to-slot
+        details: 检视全局或特定目录的包
+      - title: 根据使用场景快速安装
+        icon: object-group
+        details: 可一键安装特定场景下推荐使用的包
+      - title: 依赖包检查 [原生支持]
         icon: bug
-      - title: Cache Management
+        details: 检查环境下依赖包缺失或版本错误问题
+      - title: 在线查询
+        icon: globe
+        details: 在线获取指定包的相关信息
+      - title: 缓存设置 [原生支持]
         icon: sliders
 
 ---
