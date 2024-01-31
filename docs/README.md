@@ -1,18 +1,18 @@
 ---
 home: true
 icon: home
-title: 主页
+title: Home
 bgImageStyle: 
 background-attachment: fixed
 heroText: Pip Manager
 heroImage: assets/icon.png
-tagline: 基于 Pip 的 Python 包管理器
+tagline: A Pip-based GUI Python Package Manager
 actions:
-  - text: 开始
+  - text: Get Started
     link: ./get-started/
     type: primary
 
-  - text: 下载
+  - text: Download
     link: ./download/
 
 highlights:
@@ -21,58 +21,59 @@ highlights:
     highlights:
       - title: WPF
         icon: object-ungroup
-        details: 基于 Windows Presentation Foundation 技术的桌面图形化应用
-      - title: WPF UI
+        details: Desktop application based on Windows Presentation Foundation
+      - title: Fluent Design
         icon: display
-        details: 采用 Fluent 风格的控件设计
-      - title: 操作可视化
+        details: Fluent controls design
+      - title: Operation Visualization
         icon: window-restore
-        details: 直观地进行包管理操作
+        details: Intuitive package management operations
 
-  - header: 功能
+  - header: Action
+    image: assets/home/gui-image.png
+    highlights:
+      - title: Background Task
+        icon: object-ungroup
+        details: Most of the operations are performed by instantly visible background tasks
+      - title: Error Analysis
+        icon: display
+        details: Analyze common errors, find the cause of the problem, and provide solutions
+
+  - header: Features
     image: ""
     bgImage: ""
     features:
-      - title: 列表显示
-        icon: circle-up
-        details: 直观的包信息展现
-      - title: 检视
-        icon: check-to-slot
-        details: 检视全局或特定目录的包
-      - title: 安装
-        icon: inbox
-        details: 支持多镜像源安装
-      - title: 更新
-        icon: circle-up
-        details: 寻找/指定包更新
-      - title: 本地查询
-        icon: magnifying-glass
-        details: 获取本地包的相关信息
-      - title: 卸载
-        icon: trash
-        details: 卸载指定包
-
-  - header: 待更新功能
-    image: ""
-    bgImage: ""
-    features:
-      - title: 下载
-        icon: download
-        details: 支持多来源下载
-      - title: requirements 支持
-        icon: download
-        details: requirements.txt 相关操作
-      - title: 根据使用场景快速安装
-        icon: object-group
-        details: 可一键安装特定场景下推荐使用的包
-      - title: 依赖包检查
-        icon: bug
-        details: 检查环境下依赖包缺失或版本错误问题
-      - title: 在线查询
+      - title: Overview
+        icon: list
+        details: List the brief information of the package
+      - title: Query
         icon: globe
-        details: 在线获取指定包的相关信息
-      - title: 缓存设置
+        details: Get specified package information locally/online
+      - title: Scenario Recommendation
+        icon: object-group
+        details: One-click installation of packages recommended for specific scenarios
+      - title: Multi-Environment Management
+        icon: layer-group
+        details: Environment switching, support update operation and availability check
+      - title: Built-in Code Editor
+        icon: code
+        details: Lightweight Python script writing
+
+  - header: Native Support
+    image: ""
+    bgImage: ""
+    features:
+      - title: Installation
+        icon: inbox
+      - title: Update
+        icon: circle-up
+      - title: Uninstallation
+        icon: trash
+      - title: Download
+        icon: download
+      - title: Integrity Check
+        icon: bug
+      - title: Cache Management
         icon: sliders
-        details: 管理 pip 的缓存
 
 ---
