@@ -7,9 +7,9 @@ export default hopeTheme({
   author: {
     name: "AuroraZiling",
   },
-  iconAssets: "fontawesome",
+  iconAssets: ["fontawesome", "iconfont"],
   logo: "assets/icon.png",
-  repo: "Pip-Manager",
+  repo: "AuroraZiling/PipManager",
   docsDir: "docs",
   navbar,
   sidebar,

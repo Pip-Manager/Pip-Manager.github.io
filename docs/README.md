@@ -22,7 +22,7 @@ highlights:
       - title: WPF
         icon: object-ungroup
         details: 基于 Windows Presentation Foundation 技术的桌面图形化应用
-      - title: WPF UI
+      - title: Fluent Design
         icon: display
         details: 采用 Fluent 风格的控件设计
       - title: 操作可视化
@@ -51,6 +51,12 @@ highlights:
       - title: 卸载
         icon: trash
         details: 卸载指定包
+      - title: requirements 支持
+        icon: download
+        details: requirements.txt 相关操作
+      - title: 在线查询
+        icon: globe
+        details: 在线获取指定包的相关信息
 
   - header: 待更新功能
     image: ""
@@ -59,18 +65,16 @@ highlights:
       - title: 下载
         icon: download
         details: 支持多来源下载
-      - title: requirements 支持
-        icon: download
-        details: requirements.txt 相关操作
+      - title: 内置轻量 Python 编辑器
+        icon: boxes-stacked
+        details: 在编辑器内测试包的使用
       - title: 根据使用场景快速安装
         icon: object-group
         details: 可一键安装特定场景下推荐使用的包
       - title: 依赖包检查
         icon: bug
         details: 检查环境下依赖包缺失或版本错误问题
-      - title: 在线查询
-        icon: globe
-        details: 在线获取指定包的相关信息
+      
       - title: 缓存设置
         icon: sliders
         details: 管理 pip 的缓存
