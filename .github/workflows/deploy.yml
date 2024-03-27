@@ -48,10 +48,10 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run docs:build
-          > docs/.vuepress/dist/.nojekyll
+          > docs/.vitepress/dist/.nojekyll
 
       - name: Deployment
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: docs/.vuepress/dist
+          folder: docs/.vitepress/dist
