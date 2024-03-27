@@ -4,8 +4,11 @@ export default defineConfig({
   title: "Pip Manager",
   description: "基于 Pip 的可视化 Python 包管理器",
   lang: "zh-CN",
+  head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: 'https://loli.tc/images/icon.th.webp' }],
+  ],
   themeConfig: {
-    logo: "/assets/icon.webp",
+    logo: "https://loli.tc/images/icon.th.webp",
     nav: [
       { text: '主页', link: '/' },
       { text: '文档', link: '/guide/introduction' },

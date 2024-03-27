@@ -13,7 +13,7 @@ hero:
       text: 文档
       link: /guide/introduction
   image:
-    src: /assets/icon.webp
+    src: https://loli.tc/images/icon.webp
     alt: Pip Manager
 
 features:
